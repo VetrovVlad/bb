@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 375px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background: #f2f2f2;
+  min-height: 536px;
+}
+
+.header-container {
+  position: relative;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin: 0 auto;
+}
+
+.menu {
+  height: 235px;
+  background: #ffca39;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  z-index: 1;
+}
+
+.menu__card-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 56px;
+
+  color: #ffffff;
+}
+
+.menu__about::after {
+  content: "\2807";
+  font-size: 20px;
+}
+
+.card {
+  position: absolute;
+  z-index: 2;
+  bottom: -60px;
+}
+
+.card-container {
+  background: #ffffff;
+  width: 315px;
+  height: 170px;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  top: 30px;
+
+  box-shadow: 0 0 12px rgb(0 0 0 / 50%);
+}
+
+.card__label {
+  font-size: 10px;
+
+  padding-top: 15px;
+
+  color: blue;
+
+  font-weight: 100;
+}
+
+.card__name {
+  padding-top: 10px;
+  font-size: 25px;
+
+  font-weight: 600;
+}
+
+.card__code {
+  padding-top: 10px;
+
+  margin: 0 auto;
+}
+
+.code {
+  min-width: 235px;
+  min-height: 45px;
+}
+
+.card__number {
+  padding-top: 10px;
+}
+
+.info {
+  padding-top: 125px;
+}
+
+.info__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__block {
+  height: 125px;
+  width: 125px;
+  margin-left: 5px;
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  color: red;
+  box-shadow: 0 0 9px rgb(0 0 0 / 20%);
+}
+
+.info__block-upper {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 550;
+}
+
+.history {
+  height: 290px;
+}
+
+.history__label-block {
+  height: 30px;
+
+  font-size: 8px;
+  color: #2970ae;
+}
+
+.history__label {
+  padding-top: 16px;
+  padding-bottom: 3px;
+}
+
+.line{
+  box-shadow: 0px 0px 3px #2970ae;
+  border-bottom: 1px solid #2970ae;
+}
+
+.order{
+  display: flex;
+  justify-content: space-between;
+}
+
+.order__name{
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  color: #000000;
+  font-size: 15px;
+}
+
+.order__name-food{
+  color:#858585;
+  width: 155px;
+  font-weight: 600;
+}
+
+.order__name-date{
+  font-size: 8px;
+}
+
+.order__costs-sum{
+  font-weight: 600;
+  padding-top: 35px;
+}
+
+.main__menu{
+  height: 65px;
+}
+
+.nav__icons{
+  display: flex;
+  justify-content: space-between;
+}
